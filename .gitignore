@@ -1,0 +1,36 @@
+# STM32CubeIDE
+/.settings/
+
+# Build output
+/build/
+/Debug/
+/Release/
+
+# Project-specific files
+/.cproject
+/.project
+/.mxproject
+
+# Ignore binary files and hex files
+*.bin
+*.hex
+
+# Ignore specific linker scripts
+/STM32F103C8TX_FLASH.ld
+
+#others
+*.ioc
+
+# CMake
+/CMakeLists.txt.user
+/CMakeCache.txt
+/CMakeFiles/
+/CMakeScripts/
+
+# Ninja
+/build.ninja
+/build-*/
+
+# Visual Studio Code
+/.vscode/
+/.vscode/*
